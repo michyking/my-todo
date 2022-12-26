@@ -56,7 +56,7 @@ const App = () => {
     <Flex minHeight={"100vh"} justifyContent={"center"} alignItems={"center"}>
       <VStack>
         <VStack gap={2} as={"form"} onSubmit={submitHandler}>
-          <Heading fontSize={"2rem"}>Add Todo</Heading>
+          <Heading fontSize={"2rem"}>Add Todo List</Heading>
           <FormControl>
             <InputGroup>
               <Input
